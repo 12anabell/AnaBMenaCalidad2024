@@ -35,7 +35,7 @@ jobs:
           command: mvn -Dtest=com.fca.calidad.servicio.UserServiceTest test
       - run:
           name: Ejecutando pruebas katalon
-          command: mvn -Dtest=com.fca.calidad.funcionales.AgregarTest,com.fca.calidad.funcionales.EditarTest,com.fca.calidad.funcionales.EliminarTest test
+          command: mvn -Dtest=com.fca.calidad.funcionales.AgregarTest,com.fca.calidad.funcionales.EliminarTest,com.fca.calidad.funcionales.EditarTest test
       # Then run your tests!
       #- run:
           #name: Test
